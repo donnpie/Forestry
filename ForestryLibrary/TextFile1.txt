@@ -1,0 +1,55 @@
+﻿This library provides a range of tools to be used to calculate forestry related metric
+
+What can i do with this library?
+- Calculate the amount of wood in an acre or hectare
+- Calculate the volume of wood in a tree
+- Calculate how much wood is added to a stand over a period of time
+- 
+
+Definitions:
+dhb - diameter at breast height
+mh = merchantable height (the length of the tree that can be sold commercially)
+Stand - homogenous subsection of a forest
+Forest - collection of stands
+Taper factor - Factor (usually around 0.8 to) to compensation for taperness of the tree
+Shape factor - Factor to compensate for non-roundness of tree
+
+
+---Data types---
+
+Length
+|--Diameter
+|--Circumference (pi = circ / diameter)
+|--MerchantableHeight
+
+Area
+|-- Area (a = d2*pi/4)
+
+
+Volume
+|--BoardFoot
+|--CubicMeters
+
+
+Density
+|--GreenDensity
+|--DryDensity
+
+Moisture content
+|--Green moisture content
+|--Dry moisture content
+
+Correction factors
+
+---Objects---
+Tree
+|--Diameter
+|--Circumference
+|--MerchantableHeight
+|--BoardFoot
+|--CubicMeters
+
+
+Stand
+
+Forest
